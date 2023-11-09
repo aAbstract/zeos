@@ -1,2 +1,31 @@
-# zeos
-ZEOS is an IoT firmware Based on Arduino HAL (Hardware Abstract Layer)
+# ZEOS
+
+## Description
+ZEOS is an IoT OS based on Arduino HAL (Hardware Abstraction Layer)
+
+## Features
+
+### 1. Kernel
+The kernel is the core component of the OS.  
+It manages system resources and provides essential services.  
+It Sets up the foundation layer for higher-level software to run.  
+<b>Kernel Components: </b>  
+- Basic Kernel Data Structure [TODO]
+- File System (Littlefs Integration) [TODO]
+- Networking (HTTP MQTT ESP-NOW Integration) [TODO]
+- Device Drivers (Using Arduino HAL)
+- Process Scheduler (RTOS Integration) [TODO]
+
+### 2. Shell
+The shell is a text based interface that allows users to interact with ZEOS kernel.  
+<b>Shell Capabilities: </b>  
+- System Bindings (Lua Wrapper for Kernel Components) [TODO]
+- Scripting (Setting up a Lua REPL) [TODO]
+- User Management and Access Control [TODO]
+
+### 3. Web Dashboard
+A lightweight web dashboard served via device's builtin webserver.  
+<b>Dashboard Features: </b>
+- Device Resources Monitor [TODO]
+- A Terminal Connected to ZEOS Shell over HTTP [TODO]
+- System Configurations Portal [TODO]
