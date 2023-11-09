@@ -10,7 +10,7 @@ The kernel is the core component of the OS.
 It manages system resources and provides essential services.  
 It Sets up the foundation layer for higher-level software to run.  
 <b>Kernel Components: </b>  
-- Basic Kernel Data Structure [TODO-0]
+- Basic Kernel Data Structures [TODO-0]
 - File System (Littlefs Integration) [TODO-0]
 - Networking (HTTP MQTT ESP-NOW Integration) [TODO-0]
 - Device Drivers (Using Arduino HAL)
