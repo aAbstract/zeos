@@ -30,3 +30,5 @@ A lightweight web dashboard served via device's builtin webserver.
 - A Terminal Connected to ZEOS Shell over HTTP [TODO-2]
 - System Configurations Portal [TODO-2]
 - Simple File Explorer and Text Editor [TODO-4]
+
+### 4. Firmware OTA Update [TODO-*]
