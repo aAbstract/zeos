@@ -42,4 +42,4 @@ A lightweight web dashboard served via device's builtin webserver.
 - [ ] Device Resources Monitor
 - [ ] A Terminal Connected to ZEOS Shell over HTTP
 - [ ] System Configurations Portal
-- [ ] Simple File Explorer and Text Editor
+- [ ] Simple File Explorer
